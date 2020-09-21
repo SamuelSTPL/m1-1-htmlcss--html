@@ -1,1 +1,42 @@
 <!-- ...crickets... -->
+<body>
+    <h1>Registration form</h1>
+    <form>
+        <label for="Username">Username</label>
+        <input type="text" id="Username" name="Username">
+        <label for="password">password</label>
+        <input type="password" id="password" name="password">
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="Email">
+    
+        <h2>Wich taxi do you require?</h2>
+        <input type="radio" id="Car" name="Car" value="Car">
+        <label for="Car">Car</label>
+        <input type="radio" id="Van" name="Van" value="Van">
+        <label for="Van">Van</label>
+        <input type="radio" id="Tuk_Tuk" name="Tuk_Tuk" value="Tuk_Tuk">
+        <label for="Tuk_Tuk">Tuk Tuk</label>
+
+        <h2>Choose your extras</h2>
+        <input type="checkbox" id="Baby_seat" name="Baby_seat" value="Baby_seat">
+        <label for="Baby_seat">Baby seat</label>
+        <input type="checkbox" id="Wheelchair_access" name="Wheelchair_access" value="Wheelchair_access">
+        <label for="Wheelchair_access">Wheelchair access</label>
+        <input type="checkbox" id="Privacy_windows" name="Privacy_windows" value="Privacy_windows">
+        <label for="Privacy_windows">Privacy windows</label>
+
+        <h2>Where would you like us to pick you up?</h2>
+        <label for="pickup_location">Pickup Location:</label>
+        <select name="pickup_location" id="pickup_location">
+            <option value="pickup_location">Select One</option>
+            <option value="pickup_location">Option B</option>
+            <option value="pickup_location">Option C</option>
+        </select>
+
+        <h2>Additional Instructions</h2>
+        <label for="instructions">Special</label>
+        <textarea name="instructions" id="instructions" cols="20" rows="2" placeholder="">provide special instructions here</textarea>
+
+        <button>Submit</button>
+    </form>
+</body>
